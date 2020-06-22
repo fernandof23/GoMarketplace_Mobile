@@ -2,24 +2,54 @@
   "products": [
     {
       "id": "123",
-      "title": "Nome do produto 01",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 50
+      "title": "SSD Kingston A400, 120GB, SATA, ",
+      "image_url": "https://images6.kabum.com.br/produtos/fotos/85196/85196_index_m.jpg",
+      "price": "223.41"
     },
     {
       "id": "1234",
-      "title": "Nome do produto 02",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 60
+      "title": "Processador AMD Ryzen 5 1600, X",
+      "image_url": "https://images5.kabum.com.br/produtos/fotos/107545/processador-amd-ryzen-5-1600-cache-19mb-3-2ghz-3-6ghz-max-turbo-am4-yd1600bbafbox_1573653284_m.jpg",
+      "price": "764.59"
     },
     {
-      "id": "12345",
-      "title": "Nome do produto 03",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 70
+      "id": "1234521123123",
+      "title": "Notebook Acer Aspire 5, Intel Core i5-8265U, 8GB, SSD 256GB, NVIDIA GeForce MX130 2GB, W10, 15.6´ - A515-52G-56UJ",
+      "image_url": "https://images4.kabum.com.br/produtos/fotos/108104/notebook-acer-aspire-5-intel-core-i5-8265u-8gb-ssd-256gb-nvidia-geforce-mx130-2gb-w10-15-6-a515-52g-56uj_1574781186_m.jpg",
+      "price": "3999.89"
     },
     {
-      "id": "123456",
+      "id": "12123123214",
+      "title": "Processador AMD Ryzen 5 1600, X",
+      "image_url": "https://images5.kabum.com.br/produtos/fotos/107545/processador-amd-ryzen-5-1600-cache-19mb-3-2ghz-3-6ghz-max-turbo-am4-yd1600bbafbox_1573653284_m.jpg",
+      "price": "764.59"
+    },
+    {
+      "id": "12123123421315",
+      "title": "Notebook Acer Aspire 5 W10, 15.6´ - A515-52G-56UJ",
+      "image_url": "https://images4.kabum.com.br/produtos/fotos/108104/notebook-acer-aspire-5-intel-core-i5-8265u-8gb-ssd-256gb-nvidia-geforce-mx130-2gb-w10-15-6-a515-52g-56uj_1574781186_m.jpg",
+      "price": "489.89"
+    },
+    {
+      "id": "12098098234",
+      "title": "Processador AMD Ryzen 5 1600, X",
+      "image_url": "https://images5.kabum.com.br/produtos/fotos/107545/processador-amd-ryzen-5-1600-cache-19mb-3-2ghz-3-6ghz-max-turbo-am4-yd1600bbafbox_1573653284_m.jpg",
+      "price": "764.59"
+    },
+    {
+      "id": "1212312312312345",
+      "title": "Notebook Acer Aspire 5, ",
+      "image_url": "https://images4.kabum.com.br/produtos/fotos/108104/notebook-acer-aspire-5-intel-core-i5-8265u-8gb-ssd-256gb-nvidia-geforce-mx130-2gb-w10-15-6-a515-52g-56uj_1574781186_m.jpg",
+      "price": "399.89"
+    },
+    {
+      "id": "121231221312345",
+      "title": "Notebook Acer Aspire 5, Intel Core i5-8265U",
+      "image_url": "https://images4.kabum.com.br/produtos/fotos/108104/notebook-acer-aspire-5-intel-core-i5-8265u-8gb-ssd-256gb-nvidia-geforce-mx130-2gb-w10-15-6-a515-52g-56uj_1574781186_m.jpg",
+      "price": "399.89"
+    },
+    {
+      "id": "123411231232131456",
       "title": "Nome do produto 04",
       "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
       "price": 80

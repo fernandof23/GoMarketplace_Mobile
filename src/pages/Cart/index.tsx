@@ -1,7 +1,11 @@
 import React, { useMemo } from 'react';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
+import { useNavigation } from '@react-navigation/native';
+
 import { View } from 'react-native';
+
+import FloatingCart from '../../components/FloatingCart';
 
 import {
   Container,
@@ -39,23 +43,31 @@ const Cart: React.FC = () => {
   const { increment, decrement, products } = useCart();
 
   function handleIncrement(id: string): void {
-    // TODO
+    increment(id);
   }
 
   function handleDecrement(id: string): void {
-    // TODO
+    decrement(id);
   }
 
   const cartTotal = useMemo(() => {
-    // TODO RETURN THE SUM OF THE QUANTITY OF THE PRODUCTS IN THE CART
+    const total = products.reduce((accumulator, product) => {
+      const productsSubTotal = product.price * product.quantity;
 
-    return formatValue(0);
+      return accumulator + productsSubTotal;
+    }, 0);
+
+    return formatValue(Number(total));
   }, [products]);
 
   const totalItensInCart = useMemo(() => {
-    // TODO RETURN THE SUM OF THE QUANTITY OF THE PRODUCTS IN THE CART
+    const total = products.reduce((accumulator, product) => {
+      // const totalCart = product.quantity;
 
-    return 0;
+      return accumulator + product.quantity;
+    }, 0);
+
+    return total;
   }, [products]);
 
   return (
@@ -105,6 +117,8 @@ const Cart: React.FC = () => {
           )}
         />
       </ProductContainer>
+
+      {/* <FloatingCart go="Dashboard" /> */}
       <TotalProductsContainer>
         <FeatherIcon name="shopping-cart" color="#fff" size={24} />
         <TotalProductsText>{`${totalItensInCart} itens`}</TotalProductsText>
