@@ -21,7 +21,7 @@ Para essa aplicação foi utilizado:
 
 ```js
 //npm install
-yarn 
+yarn
 
 ```
 
@@ -51,6 +51,17 @@ Para executar os testes:
 ```js
 yarn test
 ```
+
+>Imagens da Aplicação:
+
+
+
+<img src="./images/dashboardOne.png">
+<img src="./images/dashboardTwo.png">
+
+
+<img src="./images/cart.png">
+
 
 Obs: Essa aplicação foi desenvolvida,e testada apenas em ambiente Android, sendo assim, não consigo saber o resultado que ficou em dispositivos IOS.
 
